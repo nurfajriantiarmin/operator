@@ -1,2 +1,24 @@
 # operator
-tugas
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int x;
+int y;
+int z;
+
+cout << "masukkan nilai A: ";
+cin >> x;
+cout << " Masukkan nilai B: ";
+cin >> y;
+cout << " Masukkan nilai C: ";
+cin >> z;
+
+cout << " n\hasil dari masukan adalah :"<<endl;
+cout << "A or B :" << (x||y)<<endl;
+cout << "A or C :" << (x||z)<<endl;
+cout << "(A or B) AND (A or C) :" << ((x||y)&&(x||y));
+
+return 0;
+}
